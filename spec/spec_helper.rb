@@ -1,5 +1,5 @@
 require 'data_mapper'
-require 'dm-encrypted'
+require_relative '../lib/dm-ysd-encrypted'
 require 'openssl'
 require 'digest/sha2'
 
